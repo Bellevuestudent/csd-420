@@ -14,7 +14,7 @@ import java.util.Comparator;
 public class GenericBubbleSort {
 
     
-    // METHOD 1: Bubble sort using Comparable
+    // Method 1: Bubble sort using Comparable
     // <E extends Comparable<E>> means: E must know how to compare itself
     public static <E extends Comparable<E>> void bubbleSortComparable(E[] array) {
 
@@ -37,7 +37,7 @@ public class GenericBubbleSort {
         }
     }
 
-    // METHOD 2: Bubble sort using Comparator
+    // Method 2: Bubble sort using Comparator
     // We pass in a Comparator object that defines the sort rule
     // This lets us sort in any custom order we want
     public static <E> void bubbleSortComparator(E[] array, Comparator<E> comparator) {
@@ -61,7 +61,7 @@ public class GenericBubbleSort {
         }
     }
 
-    // HELPER: Prints any array to the screen
+    // Prints any array to the screen
     public static <E> void printArray(E[] array) {
 
         System.out.print("[ ");
@@ -71,7 +71,7 @@ public class GenericBubbleSort {
         System.out.println("]");
     }
 
-    // MAIN: Test code
+    // Test code
     public static void main(String[] args) {
         // Test 1: Sort integers using Comparable, which is the natural order for numbers,
         // using integer wrapper class (not int primitive)

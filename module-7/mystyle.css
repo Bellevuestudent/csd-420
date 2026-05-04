@@ -1,0 +1,25 @@
+/*
+* Patrice Moracchini
+* 05-03-2026
+* Stylesheet for StyledCircles.java
+*/
+
+/* styleclass for plain circles */
+.plaincircle{        
+  -fx-fill:white;
+  -fx-stroke:black;
+}
+/* styleclass for bordered panes */
+.border{
+  -fx-border-color: black;
+  -fx-border-width: 5;
+  -fx-background-color: white;
+}
+/* styleID for green circle */
+#greencircle{
+  -fx-fill:green;
+}
+/* styleID for red circle */
+#redcircle{
+  -fx-fill:red;
+}

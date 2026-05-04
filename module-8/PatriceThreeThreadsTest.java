@@ -1,7 +1,7 @@
 /*
  * Patrice Moracchini
- * Bellevue University
- *
+ * 05/03/2026
+ * Assignment 8.2
  * Test class for PatriceThreeThreads
  * Verifies that all three Runnable classes and the main class function correctly
  */

@@ -1,11 +1,11 @@
 /*
  * Patrice Moracchini
- * Bellevue University
- *
- * Three Threads - outputs random letters, digits, and special characters
+ * 05/03/2026
+ * Assignment 8.2
+ * This program shows the use of three threads to output random characters to the console.
+ * It generates random lowercase letters, digits, and special characters and outputs them
  * to the console using three concurrent threads.
- *
- * Uses the Runnable interface pattern (implements Runnable)
+ * it Uses the Runnable interface pattern (implements Runnable)
  */
 import java.util.Random;
 
@@ -33,6 +33,7 @@ public class PatriceThreeThreads {
     public synchronized void incrementDigitCount()   { digitCount++;   }
     public synchronized void incrementSpecialCount() { specialCount++; }
 
+    // getters for testing purposes
     public int getLetterCount()  { return letterCount;  }
     public int getDigitCount()   { return digitCount;   }
     public int getSpecialCount() { return specialCount; }
